@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_runtime_dependency 'qless', '~> 0.9.2'
-  gem.add_runtime_dependency 'celluloid', '~> 0.12.4'
+  gem.add_runtime_dependency 'celluloid', '~> 0.16.0'
 
   gem.add_development_dependency 'rr'
 end
